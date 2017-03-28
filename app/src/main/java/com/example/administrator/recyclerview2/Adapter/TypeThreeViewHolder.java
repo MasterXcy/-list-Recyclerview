@@ -27,7 +27,7 @@ public class TypeThreeViewHolder extends TypeAbstractViewHolder {
     }
 
     public void bindHolder(DataModel model) {
-        avatar.setBackgroundResource(model.avatarColor);
+ 
         name.setText(model.name);
         contentImage.setBackgroundResource(model.contentColor);
         content.setText(model.content);
