@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
         mAdaper = new DemoAdapter(this);
         mRecyclerview.setAdapter(mAdaper);
         initData();
+        notifyDataChange();
     }
 
     protected void initData() {
